@@ -1,6 +1,6 @@
-package com.klinbee.examplemod.platform;
+package com.klinbee.nosurfacerules.platform;
 
-import com.klinbee.examplemod.platform.services.IPlatformHelper;
+import com.klinbee.nosurfacerules.platform.services.IPlatformHelper;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.loading.FMLLoader;
 

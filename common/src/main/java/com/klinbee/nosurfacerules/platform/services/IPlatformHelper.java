@@ -1,4 +1,4 @@
-package com.klinbee.examplemod.platform.services;
+package com.klinbee.nosurfacerules.platform.services;
 
 public interface IPlatformHelper {
 

@@ -1,6 +1,6 @@
-package com.klinbee.examplemod.platform;
+package com.klinbee.nosurfacerules.platform;
 
-import com.klinbee.examplemod.platform.services.IPlatformHelper;
+import com.klinbee.nosurfacerules.platform.services.IPlatformHelper;
 import net.fabricmc.loader.api.FabricLoader;
 
 public class FabricPlatformHelper implements IPlatformHelper {
