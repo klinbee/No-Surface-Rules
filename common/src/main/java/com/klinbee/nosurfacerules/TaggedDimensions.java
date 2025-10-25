@@ -47,7 +47,7 @@ public final class TaggedDimensions {
         VALID = true;
         // Case for empty tag or missing tag
         if (DISABLED_SURFACE.isEmpty()) {
-            NoSurfaceRulesConstants.LOG.info("No dimensions marked to disable surface rules for!");
+            NoSurfaceRulesConstants.LOG.info("No dimensions marked to disable surface rules for! No tag: " + tag);
         }
         StringBuilder disabledDimensionsMessage = new StringBuilder("Marked dimensions to disable surface rules for: ");
         DISABLED_SURFACE.forEach(dimKey -> disabledDimensionsMessage.append(dimKey).append(" "));
